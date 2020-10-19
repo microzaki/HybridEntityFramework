@@ -1,5 +1,6 @@
 # Purpuse
 Most of EF architectures such as [EF Code](https://github.com/dotnet/efcore) are designed for specific DB type and less functions than SQL. 
+
 This DLL combines EF and SQL together, you can choose either one to use. And finally commit all of them in the same commitment. 
 # Environment
 So far it only supports SQLite. But it's quite easy to support other RDBMS by replacement of DB inteface DLL.
