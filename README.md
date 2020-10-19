@@ -1,4 +1,4 @@
-# Purpuse
+# Purpose
 Most of EF architectures such as [EF Code](https://github.com/dotnet/efcore) are designed for specific DB type and less functions than SQL. 
 
 This DLL combines EF and SQL together, you can choose either one to use. And finally commit all of them in one commitment. 
