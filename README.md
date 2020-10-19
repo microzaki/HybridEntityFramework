@@ -4,7 +4,7 @@
 # Environment
 So far it only supports SQLite. But it's quite easy to support other RDBMS by replacement of DB inteface DLL.
 # Example Code
-Insert two rows. One is EF and another is SQL. Finally commit both on them.
+Insert two rows. Fist one uses EF and second one uses SQL. Finally commit both on them.
 ```C#
 List<SqlScript> sqls = new List<SqlScript>();
 #region Entity Framework
